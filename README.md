@@ -39,6 +39,7 @@ The main purposes of the shell is this:
 * Export/import data of the database
 * Cleanup and large-scale jobs
 * Interface to a pretty advanced test system for TR-069 devices
+* Run in restricted mode - can be setup to open directly on a SSH-connection
 
 The Shell offers piping and variables, if/else, while/done, and some
 other constructs to really make complex scripts. The scripts can also call
