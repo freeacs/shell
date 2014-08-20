@@ -118,9 +118,9 @@ public class XAPSShell {
 				if (arg.equals("-help") || arg.equals("-?")) {
 					println("Usage:\n");
 					println("xapsshell");
-					println("\tInteractive session. Choose Fusion DB in application");
+					println("\tInteractive session. Choose DB in application");
 					println("xapsshell <LOGIN>");
-					println("\tInteractive session. Fusion DB chosen using command line arguments");
+					println("\tInteractive session. DB chosen using command line arguments");
 					println("xapsshell <COMMAND-OPTION> [<LOGIN>]");
 					println("\tSession runs according to command-option. May be interactive.");
 					println("\tDATABASE can be omitted only if using the script, help and ? command");
@@ -146,8 +146,9 @@ public class XAPSShell {
 					println("\t-?");
 					println("\t\tShows this message");
 					println("\t-<unrecognized option> <value>");
-					println("\t\tThe shell will translate any unrecognized option into a variable. Option");
-					println("\t\tname will be the variable name and option will be the variable value.");
+					println("\t\tThe shell will translate any unrecognized option into a variable. ");
+					println("\t\tOption name will be the variable name and option will be the variable ");
+					println("\t\tvalue.");
 					println("\nLOGIN:");
 					println("\t-user <username>");
 					println("\t\tThe database username, can be taken from xaps-shell.properties");
@@ -156,9 +157,10 @@ public class XAPSShell {
 					println("\t-url <jdbc-url>");
 					println("\t\tThe database url, can be taken from xaps-shell.properties.");
 					println("\t-fusionuser <username>");					
-					println("\t\tThe Fusion user, with a specified set of access permissions within Fusion");
+					println("\t\tThe Fusion user, with a specified set of access permissions within ");
+					println("\t\tFreeACS user database");
 					println("\t-fusionpass <password>");					
-					println("\t\tThe Fusion password");
+					println("\t\tThe FreeACS password");
 					return true;
 				}
 			}
