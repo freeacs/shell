@@ -123,7 +123,7 @@ public class Processor {
 				Profile profile = context.getProfile();
 				if (profile == null)
 					throw makeContextSwitchException(ce);
-				Unit unit = session.getXapsUnit().getUnitById(ceName);
+				Unit unit = session.getXapsUnit().getUnitById(ceName, unittype, profile);
 				if (unit == null)
 					throw new IllegalArgumentException("The context switch to " + ce + " was not possible");
 				if (context.getGroup() != null)

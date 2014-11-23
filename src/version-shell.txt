@@ -1,3 +1,5 @@
+v2.3.41 (2014-11-23)
+- bug: cc-command did not properly obey the unittype/profile context switch, when switching to a unit
 v2.3.40 (2013-07-10)
 - bug: unittypecompletedelete did not delete test-case related data, hence delete could not be completed
 v2.3.39 (2013-05-30)

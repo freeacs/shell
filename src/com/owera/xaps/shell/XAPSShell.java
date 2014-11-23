@@ -28,7 +28,7 @@ import com.owera.xaps.shell.util.ValidateInteger;
 
 public class XAPSShell {
 
-	public static String version = "2.3.40";
+	public static String version = "2.3.41";
 
 	private BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	private PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
